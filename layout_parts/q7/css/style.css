@@ -3,3 +3,75 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+/* Q7. 横並び */
+/* ー Q7-1 floatでの横並び ー */
+.q7-1__parent {
+  overflow: auto;
+}
+.q7-1__child {
+  float: left;
+  width: 205px;
+  margin-right: 50px;
+  font-size: 16px;
+}
+.q7-1__child:last-child {
+  margin-right: 0;
+}
+/* ー Q7-2 tableでの横並び ー */
+.q7-2__parent {
+  display: table;
+}
+.q7-2__child {
+  display: table-cell;
+  vertical-align: middle;
+}
+.q7-2__text{
+  width: 205px;
+  margin-right: 50px;
+} 
+
+/* ー Q7-3 inline-blockでの横並び ー */
+.q7-3__child {
+  display: inline-block;
+  width: 205px;
+  vertical-align: middle;
+  margin-right: 45px;
+}
+.q7-3__child:last-child {
+  margin-right: 0;
+}
+/* ー Q7-4 flexでの横並び ー */
+.q7-4__parent {
+  display: flex;
+  align-items: flex-end;
+}
+.q7-4__child {
+  margin-right: 25px;
+  margin-left: 12px;
+  width: 205px;
+}
+.q7-4__child:last-child {
+  margin-right: 10px;
+  margin-left: 0;
+}
+/* ー Q7-5 inline-blockとmarginでの横並び ー */
+.q7-5__parent {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.q7-5__child1 {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+.q7-5__child2 {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 350px;
+  margin-left: -300px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}

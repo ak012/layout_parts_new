@@ -3,3 +3,67 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+/* Q6. 中央寄せ */
+/* ー Q6-1 左右中央寄せ ー */
+.q6--horizontal {
+  margin: 10px auto;
+}
+.q6-1 p {
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
+.q6-1_text-align {
+  text-align: center;
+}
+.q6-1_text-align p {
+  display: inline-block;
+}
+.q6-1_margin p {
+  margin: 0 auto;
+  text-align: center;
+}
+/* ー Q6-2 天地左右中央寄せ ー */
+/* table */
+.q6_table_box {
+  display: table;
+}
+.q6_table_text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.q6_text p{
+  background-color: #fff;
+  padding: 10px;
+}
+.q6_table_text  p{
+  display: inline-block;
+}
+/* flex */
+.q6_flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* position固定 */
+.position_parent {
+  position: relative;
+}
+.position_fixed {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* position可変 */
+.position_variable {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  padding: 0px;
+  margin: 0 auto;
+}

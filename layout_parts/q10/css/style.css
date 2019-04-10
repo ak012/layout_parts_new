@@ -18,8 +18,7 @@
   content: "";
   position: absolute;
   top: 100%;
-  left: 10%;
-  margin-left: -22px;
+  left: 6%;
   border: 18px solid transparent;
   border-top: 18px solid #fff;
   z-index: 2;
@@ -28,8 +27,7 @@
   content: "";
   position: absolute;
   top: 100%;
-  left: 10%;
-  margin-left: -29px;
+  left: 4.6%;
   border: 25px solid transparent;
   border-top: 25px solid #222;
   z-index: 1;

@@ -10,7 +10,7 @@
   border-collapse: collapse;
   line-height: 26px;
 }
-.q3_contents th,td {
+.q3_contents th,.q3_contents td {
   padding: 10px;
   border: solid #dedede 1px;
   vertical-align: middle;
@@ -23,9 +23,9 @@
 .q3_contents td {
   font-size: 16px;
 }
-tr:nth-child(odd) {
+.q3_contents tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
-tr:last-child {
+.q3_contents tr:last-child {
   border-top: dashed #000 2px;
 }

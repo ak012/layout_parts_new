@@ -12,22 +12,17 @@
   box-sizing: border-box;
   padding: 20px;
   background-color: #eff3f4;
-  display: table;
-  margin: 0 auto;
-  table-layout: fixed;
 }
 .dtable_box {
   box-sizing: border-box;
-  float: left;
   width: 100%;
-  height: 50px;
   display: table;
   margin-bottom: 20px;
 }
 .dtable_box:last-child {
   margin-bottom: 0;
 }
-.dtable_box div {
+.boxes {
   padding: 20px;
   display: table-cell;
   text-align: center;

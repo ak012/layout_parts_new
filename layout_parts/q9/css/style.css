@@ -5,7 +5,7 @@
 /* 回答はここに書いてね */
 /* Q9. アニメーション */
 /* ー Q9-1 transition ー< */
-.q9_box1 {
+.q9_box {
   position: relative;
   width: 500px;
   height: 333px;
@@ -25,7 +25,7 @@
   max-width: 100%;
   height: auto;
 }
-.q9_text1 {
+.q9_text {
   position: absolute;
   color: white;
   font-size: 16px;
@@ -39,19 +39,19 @@
 	background-color: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8));
   transition:	all 0.5s ease;  
 }
-.q9_box1:hover .q9_picture {
+.q9_box:hover .q9_picture {
   transform: scale(1.5);
 }
-.q9_box1:hover .q9_text1 {
+.q9_box:hover .q9_text {
   top: 0;
 }
-.q9_text1-1 {
+.q9_text_content {
   position: absolute;
   bottom: 0;
   padding: 20px;
 }
 /* ー Q9-2 animation ー */
-.q9_2 {
+.q9_animation {
   width: 100px;
   height: 100px;
   border-radius: 50%;
